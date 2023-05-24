@@ -7,13 +7,14 @@
 }
 
 header {
-  width: 90%;
+  width: 85%;
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 50px;
   font-family: 'Open Sans', sans-serif;
+  margin-bottom: 10%;
 }
 
 header img {
@@ -32,9 +33,23 @@ header a:hover {
   color: hsl(321, 100%, 78%);
 }
 
+.hero-section {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+}
+
 @media (max-width: 435px) {
   header {
-    flex-direction: column;
+    /* flex-direction: column; */
     gap: 20px;
+  }
+
+  header img {
+    width: 120px;
+  }
+
+  header a {
+    padding: 10px 26px;
   }
 }
