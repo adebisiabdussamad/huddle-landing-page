@@ -5,3 +5,36 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header img {
+  width: 200px;
+}
+
+header a {
+  text-decoration: none;
+  border: 1px solid;
+  padding: 10px 32px;
+  border-radius: 30px;
+  color: hsl(322, 100%, 66%);
+}
+
+header a:hover {
+  color: hsl(321, 100%, 78%);
+}
+
+@media (max-width: 435px) {
+  header {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
