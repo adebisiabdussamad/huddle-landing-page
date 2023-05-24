@@ -45,7 +45,7 @@ h1 {
   color: hsl(192, 100%, 9%);
 }
 
-p {
+.hero-section p {
   font-size: 1.2rem;
   color: hsl(192, 100%, 9%);
   width: 40%;
@@ -53,7 +53,7 @@ p {
 }
 
 .hero-img {
-  width: 85%;
+  width: 70%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -80,11 +80,48 @@ p {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
+.stats {
+  width: 70%;
+  margin: 60px auto;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.stats h2 {
+  font-size: 5rem;
+  color: hsl(192, 100%, 9%);
+  font-family: 'Poppins', sans-serif;
+}
+
+.stats p {
+  font-size: 1.1rem;
+  color: #9ea3a7;
+  font-family: 'Open Sans', sans-serif;
+}
+
 @media (max-width:1100px) {
-  p {
+  .hero-section p {
     width: 70%;
   }
 
+}
+
+@media(max-width: 700px) {
+  .stats {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin: 100px auto;
+  }
+
+  .stats img {
+    width: 30px;
+  }
+
+  .stats h2 {
+    font-size: 4rem;
+  }
 }
 
 @media (max-width: 435px) {
@@ -105,7 +142,7 @@ p {
     margin-top: 100px;
   }
 
-  p {
+  .hero-section p {
     width: auto;
   }
 }
