@@ -149,7 +149,15 @@ article {
   width: 85%;
 }
 
-. @media (max-width:1100px) {
+.together-2 img {
+  width: 100%;
+}
+
+.together-2 img:last-of-type {
+  display: none;
+}
+
+@media (max-width:1100px) {
   .hero-section p {
     width: 70%;
   }
@@ -172,11 +180,13 @@ article {
     font-size: 4rem;
   }
 
-  .together img:first-of-type {
+  .together img:first-of-type,
+  .together-2 img:first-of-type {
     display: none;
   }
 
-  .together img:last-of-type {
+  .together img:last-of-type,
+  .together-2 img:last-of-type {
     display: block;
   }
 
@@ -184,6 +194,7 @@ article {
     flex-direction: column-reverse;
     gap: 50px;
     padding-top: 100px;
+    padding-bottom: 70px;
   }
 
   .face img {
