@@ -199,21 +199,27 @@ article {
   display: none;
 }
 
-.ispum {
-  width: 85%;
-  margin: 0 auto;
-}
-
-.ispum img {
-  filter: brightness(0) invert(100%);
-  width: 200px;
-}
 
 .foot {
   background-color: hsl(192, 100%, 9%);
   width: 100%;
   margin-top: -5px;
 }
+
+.ispum {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.img-logo {
+  filter: brightness(0) invert(100%);
+  width: 200px;
+}
+
+.ispum p {
+  color: white;
+}
+
 
 @media (max-width:1100px) {
   .hero-section p {
