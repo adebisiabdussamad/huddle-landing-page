@@ -184,7 +184,35 @@ article {
 
 .community {
   width: 85%;
-  margin: 100px auto;
+  margin: 150px auto;
+}
+
+.footer-img {
+  width: 100%;
+}
+
+.footer-image img {
+  width: 100%;
+}
+
+.footer-image img:last-of-type {
+  display: none;
+}
+
+.ispum {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.ispum img {
+  filter: brightness(0) invert(100%);
+  width: 200px;
+}
+
+.foot {
+  background-color: hsl(192, 100%, 9%);
+  width: 100%;
+  margin-top: -5px;
 }
 
 @media (max-width:1100px) {
@@ -211,12 +239,14 @@ article {
   }
 
   .together img:first-of-type,
-  .together-2 img:first-of-type {
+  .together-2 img:first-of-type,
+  .footer-image img:first-of-type {
     display: none;
   }
 
   .together img:last-of-type,
-  .together-2 img:last-of-type {
+  .together-2 img:last-of-type,
+  .footer-image img:last-of-type {
     display: block;
   }
 
