@@ -1,65 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap);
 
-/* Common Styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Font Families */
-header,
-.community h3,
-.stats h2,
-h1,
-.meaning h3,
-.email,
-.phone {
-  font-family: 'Poppins', sans-serif;
-}
-
-.ispum,
-.more a,
-.newsletter input,
-.newsletter p {
-  font-family: 'Open Sans', sans-serif;
-}
-
-/* General Styles */
 .hero-img,
 .stats,
-header,
-.grow,
-.users {
-  display: flex;
+header {
+  display: flex
 }
 
 .grow,
 .users {
-  background-color: #f6fbff;
+  background-color: #f6fbff
 }
 
 .img-logo,
 .our-social img {
-  filter: brightness(0) invert(100%);
+  filter: brightness(0) invert(100%)
 }
 
 .free a,
 .more a {
   text-decoration: none;
-  background-color: #ff51bf;
+  background-color: #ff51bf
 }
 
-/* Header Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
 header {
   width: 85%;
   margin: 50px auto 100px;
   align-items: center;
   justify-content: space-between;
+  font-family: 'Open Sans', sans-serif
+}
+
+.community h3,
+.stats h2,
+h1 {
+  font-family: Poppins, sans-serif
 }
 
 header img {
-  width: 200px;
+  width: 200px
 }
 
 header a {
@@ -67,166 +51,177 @@ header a {
   border: 1px solid;
   padding: 10px 32px;
   border-radius: 30px;
-  color: #ff51bf;
+  color: #ff51bf
 }
 
 header a:hover {
-  color: #ff8ed7;
+  color: #ff8ed7
 }
 
-/* Hero Section Styles */
 .hero-section {
   width: 85%;
   margin: 0 auto;
-  text-align: center;
+  text-align: center
 }
 
 .community h3,
 h1 {
   font-size: 2rem;
   color: #00242d;
-  text-align: center;
+  text-align: center
 }
 
 .hero-section p {
   font-size: 1.2rem;
   color: #00242d;
   width: 40%;
-  margin: 0 auto;
+  margin: 0 auto
 }
 
 .hero-img {
   width: 70%;
   margin: 0 auto;
-  justify-content: center;
+  justify-content: center
 }
 
-/* Footer Styles */
 .footer-image img,
 .footer-img,
 .hero-img img,
 .together img,
 .together-2 img,
 .users img {
-  width: 100%;
+  width: 100%
 }
 
-/* Free Section Styles */
 .free {
   text-align: center;
-  margin: 50px 0 100px;
+  margin: 50px 0 100px
 }
 
 .free a {
   color: #fff;
   padding: 12px 40px;
-  border-radius: 40px;
+  border-radius: 40px
 }
 
 .free a:hover {
-  box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0 8px 16px -8px;
+  box-shadow: rgba(50, 50, 93, .25) 0 13px 27px -5px, rgba(0, 0, 0, .3) 0 8px 16px -8px
 }
 
-/* Stats Section Styles */
 .stats {
   width: 70%;
   margin: 60px auto;
   list-style: none;
-  justify-content: space-around;
+  justify-content: space-around
 }
 
 .flowing,
 .tog,
 .users {
   display: flex;
-  align-items: center;
+  align-items: center
 }
 
 .stats h2 {
   font-size: 5rem;
-  color: #00242d;
+  color: #00242d
 }
 
 .stats p {
   font-size: 1.1rem;
   color: #9ea3a7;
+  font-family: 'Open Sans', sans-serif
 }
 
 .together {
-  margin-bottom: -5px;
+  margin-bottom: -5px
 }
 
-/* Meaning Section Styles */
+.footer-image img:last-of-type,
+.together img:last-of-type,
+.together-2 img:last-of-type {
+  display: none
+}
+
 .ispum,
 article {
   width: 85%;
-  margin: 0 auto;
+  margin: 0 auto
 }
 
 .face,
 .meaning {
-  width: 50%;
+  width: 50%
 }
 
 .face img {
-  width: 90%;
+  width: 90%
 }
 
 .meaning h3 {
   font-weight: 700;
+  font-family: Poppins, sans-serif;
   font-size: 2.2rem;
   color: #00242d;
-  margin-bottom: 10px;
+  margin-bottom: 10px
+}
+
+.email,
+.ispum p,
+.more a,
+.newsletter input,
+.newsletter p,
+.phone {
+  font-family: 'Open Sans', sans-serif
 }
 
 .meaning p {
   font-size: 1.2rem;
   color: #00242d;
-  width: 85%;
+  width: 85%
 }
 
-/* Users Section Styles */
 .flowing,
 .users {
   margin: 100px auto;
-  width: 85%;
+  width: 85%
 }
 
 .users {
-  padding: 30px 0;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 0
 }
 
 .users p {
-  width: 70%;
+  width: 70%
 }
 
-/* Community Section Styles */
 .community {
   width: 85%;
-  margin: 150px auto;
+  margin: 150px auto
 }
 
-/* Footer Styles */
 .foot {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: #00242d;
   width: 100%;
   margin-top: -5px;
-  padding-top: 60px;
+  padding-top: 60px
 }
 
 .img-logo {
   width: 200px;
-  padding-bottom: 20px;
+  padding-bottom: 20px
 }
 
 .ispum p {
-  color: #fff;
+  color: #fff
 }
 
 .phone {
-  margin-top: 20px;
+  margin-top: 20px
 }
 
 .email,
@@ -234,23 +229,23 @@ article {
   display: flex;
   gap: 20px;
   align-items: center;
-  padding: 7px 0;
+  padding: 7px 0
 }
 
 .our-social {
   padding: 50px 0 20px;
   gap: 15px;
-  display: inline-flex;
+  display: inline-flex
 }
 
 .our-social img {
-  width: 25px;
+  width: 25px
 }
 
 .newsletter h4 {
   text-transform: uppercase;
   color: #fff;
-  font-size: 2rem;
+  font-size: 2rem
 }
 
 .newsletter p {
@@ -258,82 +253,80 @@ article {
   font-size: 1rem;
   line-height: 1.5rem;
   color: #fff;
-  margin: 20px 0;
+  margin: 20px 0
 }
 
 .newsletter input {
-  border: 0.1px solid #b8b8b8;
-  padding: 0.8rem;
+  border: .1px solid #b8b8b8;
+  padding: .8rem;
   margin-bottom: 1rem;
   color: #3d3a3a;
   width: 40%;
-  border-radius: 6px;
+  border-radius: 6px
 }
 
 .more a {
   cursor: pointer;
-  padding: 0.8rem;
+  padding: .8rem 2.5rem;
   border-radius: 6px;
   font-weight: 700;
   color: #fff;
-  border: 0.1px solid #b8b8b8;
+  border: .1px solid #b8b8b8;
   margin-left: 20px;
   line-height: normal;
   height: 45px;
-  width: 20%;
-  text-align: center;
+  width: 20%
 }
 
 .newsletter button:hover {
-  background-color: #ff8ed7;
+  background-color: #ff8ed7
 }
 
-/* Media Queries */
-@media (max-width: 1100px) {
+@media (max-width:1100px) {
   .hero-section p {
-    width: 70%;
+    width: 70%
   }
 }
 
-@media (max-width: 700px) {
+@media(max-width:700px) {
 
   .foot,
   .more {
-    display: flex;
+    display: flex
   }
 
   .stats {
     flex-direction: column;
     align-items: center;
     gap: 50px;
-    margin: 100px auto;
+    margin: 100px auto
   }
 
   .stats img {
-    width: 30px;
+    width: 30px
   }
 
   .stats h2 {
-    font-size: 4rem;
+    font-size: 4rem
   }
 
   .footer-image img:first-of-type,
   .together img:first-of-type,
   .together-2 img:first-of-type {
-    display: none;
+    display: none
   }
 
   .footer-image img:last-of-type,
   .together img:last-of-type,
   .together-2 img:last-of-type {
-    display: block;
+    display: block
   }
 
   .tog {
     flex-direction: column-reverse;
     gap: 50px;
     padding-top: 100px;
-    padding-bottom: 70px;
+    padding-bottom: 70px
   }
 
   .flowing {
@@ -344,57 +337,57 @@ article {
   .meaning p,
   .newsletter p,
   .users p {
-    width: 100%;
+    width: 100%
   }
 
   .face,
   .meaning {
     width: 100%;
-    text-align: center;
+    text-align: center
   }
 
   .users {
-    flex-direction: column;
+    flex-direction: column
   }
 
   .newsletter {
     width: 85%;
-    margin: 0 auto 50px;
+    margin: 0 auto 50px
   }
 
   .foot {
-    flex-direction: column-reverse;
+    flex-direction: column-reverse
   }
 
   .more {
-    flex-direction: column;
+    flex-direction: column
   }
 
   .more a,
   .newsletter input {
     width: 100%;
-    margin: 10px 0;
+    margin: 10px 0
   }
 }
 
-@media (max-width: 435px) {
+@media (max-width:435px) {
   header {
-    gap: 20px;
+    gap: 20px
   }
 
   header img {
-    width: 120px;
+    width: 120px
   }
 
   header a {
-    padding: 10px 26px;
+    padding: 10px 26px
   }
 
   .hero-section {
-    margin-top: 100px;
+    margin-top: 100px
   }
 
   .hero-section p {
-    width: auto;
+    width: auto
   }
 }
