@@ -272,7 +272,7 @@ article {
 
 .more a {
   cursor: pointer;
-  padding: 0.8rem 2.5rem;
+  padding: 0.8rem;
   border-radius: 6px;
   font-weight: 700;
   color: #fff;
@@ -281,6 +281,7 @@ article {
   line-height: normal;
   height: 45px;
   width: 20%;
+  text-align: center;
 }
 
 .newsletter button:hover {
