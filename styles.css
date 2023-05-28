@@ -19,7 +19,8 @@ header {
 .free a,
 .more a {
   text-decoration: none;
-  background-color: #ff51bf
+  background-color: #ff51bf;
+  font-weight: 700
 }
 
 * {
@@ -33,7 +34,7 @@ header {
   margin: 50px auto 100px;
   align-items: center;
   justify-content: space-between;
-  font-family: 'Open Sans', sans-serif
+  font-family: "Open Sans", sans-serif
 }
 
 .community h3,
@@ -51,7 +52,8 @@ header a {
   border: 1px solid;
   padding: 10px 32px;
   border-radius: 30px;
-  color: #ff51bf
+  color: #ff51bf;
+  font-weight: 700
 }
 
 header a:hover {
@@ -105,7 +107,7 @@ h1 {
 }
 
 .free a:hover {
-  box-shadow: rgba(50, 50, 93, .25) 0 13px 27px -5px, rgba(0, 0, 0, .3) 0 8px 16px -8px
+  box-shadow: rgba(50, 50, 93, .25)0 13px 27px -5px, rgba(0, 0, 0, .3)0 8px 16px -8px
 }
 
 .stats {
@@ -130,7 +132,7 @@ h1 {
 .stats p {
   font-size: 1.1rem;
   color: #9ea3a7;
-  font-family: 'Open Sans', sans-serif
+  font-family: "Open Sans", sans-serif
 }
 
 .together {
@@ -172,7 +174,13 @@ article {
 .newsletter input,
 .newsletter p,
 .phone {
-  font-family: 'Open Sans', sans-serif
+  font-family: "Open Sans", sans-serif
+}
+
+.more a,
+.phone p,
+.email p {
+  font-weight: 700
 }
 
 .meaning p {
@@ -267,7 +275,7 @@ article {
 
 .more a {
   cursor: pointer;
-  padding: .8rem 2.5rem;
+  padding: .8rem;
   border-radius: 6px;
   font-weight: 700;
   color: #fff;
@@ -288,7 +296,7 @@ article {
   }
 }
 
-@media(max-width:700px) {
+@media (max-width:700px) {
 
   .foot,
   .more {
@@ -330,7 +338,7 @@ article {
   }
 
   .flowing {
-    flex-direction: column;
+    flex-direction: column
   }
 
   .face img,
